@@ -24,7 +24,7 @@ public class ReadWriteTextFile {
 		
 		ReadWriteTextFile text = new ReadWriteTextFile();
 
-		// treat as a small file/
+		// treat as a small file//
 		List<String> lines = text.readSmallTextFile(FILE_NAME);
 		log(lines);
 		lines.add("This is a line added in code.");
